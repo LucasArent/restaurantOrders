@@ -1,7 +1,7 @@
 from src.models.ingredient import Ingredient, Restriction # noqa: F401, E261, E501
 
 
-# Req 1
+# Req 1, continuation line under-indented for visual indent
 def test_ingredient():
     ingredient_1 = Ingredient("queijo parmesão")
     ingredient_2 = Ingredient("presunto")
